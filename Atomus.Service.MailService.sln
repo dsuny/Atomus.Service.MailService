@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E1CF8B9-D957-4F5A-8C0D-5AEB29BEF5B8}"
+	ProjectSection(SolutionItems) = preProject
+		src\MailService.cs = src\MailService.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.MailService(dotNet)", "dotNet\Atomus.Service.MailService(dotNet).csproj", "{2541490B-692F-42DF-8A59-5EDE5EE3B404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.MailService(dotNetCore)", "dotNetCore\Atomus.Service.MailService(dotNetCore).csproj", "{780FE68E-98E5-4080-90C2-C25F6821F86D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.MailService(dotNetStandard)", "dotNetStandard\Atomus.Service.MailService(dotNetStandard).csproj", "{C4B3542B-93B5-475F-BC96-612E20B20D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2541490B-692F-42DF-8A59-5EDE5EE3B404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2541490B-692F-42DF-8A59-5EDE5EE3B404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2541490B-692F-42DF-8A59-5EDE5EE3B404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2541490B-692F-42DF-8A59-5EDE5EE3B404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780FE68E-98E5-4080-90C2-C25F6821F86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780FE68E-98E5-4080-90C2-C25F6821F86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780FE68E-98E5-4080-90C2-C25F6821F86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780FE68E-98E5-4080-90C2-C25F6821F86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B3542B-93B5-475F-BC96-612E20B20D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B3542B-93B5-475F-BC96-612E20B20D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B3542B-93B5-475F-BC96-612E20B20D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B3542B-93B5-475F-BC96-612E20B20D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3976A520-2981-491F-BC93-659BED5EFF4C}
+	EndGlobalSection
+EndGlobal
